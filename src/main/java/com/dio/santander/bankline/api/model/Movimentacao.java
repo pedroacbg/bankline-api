@@ -37,4 +37,7 @@ public class Movimentacao implements Serializable{
 	
 	@Enumerated(EnumType.STRING)
 	private MovimentacaoTipo tipo;
+	
+	@Column(name = "id_conta")
+	private Integer idConta;
 }
